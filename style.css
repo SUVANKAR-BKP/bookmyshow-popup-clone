@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+body{
+   z-index: -2;
+   background-color: rgb(134, 134, 134);
+}
+#pop-up{
+    width: 70vw;
+    background-color: rgb(254,254,255);
+    height: 72vh;
+    padding: 1.5vw;
+    margin: 8vh 15vw;
+    position: fixed;
+    top: 10px;
+    z-index: 1;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(241, 241, 241);
+  
+}
+
+
+.material-icons-outlined{
+    font-family: 'Material Icons';
+    font-size: 20px;
+    padding: 0 1%;
+    color: gray;
+   
+}
+
+.navigation>input{
+    padding: 1.5%;
+    border: none;
+    width: 100%;
+
+}
+.navigation>input:focus{
+    outline: none;
+}
+#pop-up>h6{
+  
+    text-align: center;
+    margin: 1.5vw 0;
+    font-size: 14px;
+}
+.city{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+#city-text{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+#city-text:hover{
+    color: black;
+}
+
+.all-city{
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: scroll;
+    padding: 0 8vw 0 1.2vw;
+}
+.all-city::-webkit-scrollbar{
+    display: none;
+}
+.city-colum{
+    display: flex;
+    flex-direction: column;
+}
+.city-colum>a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    font-weight: 300;
+}
+.city-colum>a:hover{
+    color: black;
+}
+.hide-city{
+    color: rgb(219, 82, 105);
+    padding-bottom: 2vw;
+}
